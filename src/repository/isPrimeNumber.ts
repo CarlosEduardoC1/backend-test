@@ -1,10 +1,8 @@
+import { PrimeNumberResponse } from "../types";
+
 const primeNumberList = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29];
 
-export function isPrimeNumber(primeNumber: number): {
-  isPrime: boolean;
-  message: string;
-  primeNumberList: number[];
-} {
+export function isPrimeNumber(primeNumber: number): PrimeNumberResponse {
   let isPrime: boolean = true;
 
   if (primeNumber === 1) {
