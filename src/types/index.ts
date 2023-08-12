@@ -16,3 +16,12 @@ export type PalindromeResponse = {
   inserted: string;
   reverse: string;
 };
+
+export type VowelCounterResponse = {
+  vowelsQuantity: number;
+  vowelsList: string[];
+  highestOccurrence: string;
+  lowestOccurence: string;
+  phrase: string;
+  vowelsFindedList: string[];
+};
