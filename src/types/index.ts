@@ -7,6 +7,12 @@ export type PrimeNumberResponse = {
 };
 
 export type FactorialResponse = {
-    result: number;
-    message: string;
-}
+  result: number;
+  message: string;
+};
+
+export type PalindromeResponse = {
+  isPalindrome: boolean;
+  inserted: string;
+  reverse: string;
+};
